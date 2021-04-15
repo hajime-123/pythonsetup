@@ -4,43 +4,43 @@
 
 windowsインストーラ64ビットを選択
 
-![Test Image 1](python設定画像\1.PNG)
+![Test Image 1](python設定画像/1.PNG)
 
 pathはDドライブにする
 
 インストールの方法はカスタムを選択する
 
-![1](python設定画像\2.PNG)
+![1](python設定画像/2.PNG)
 
 
 
-![1](python設定画像\3.PNG)
+![1](python設定画像/3.PNG)
 
 install for all userにチェック
 
 保存場所変更
 
-![1](python設定画像\4.PNG)
+![1](python設定画像/4.PNG)
 
 
 
-![1](python設定画像\5.PNG)
+![1](python設定画像/5.PNG)
 
 試しにpythonを実行してみる
 
 hello_test.py作成
 
-![1](python設定画像\6.PNG)
+![1](python設定画像/6.PNG)
 
 実行してみた
 
-![1](python設定画像\7.PNG)
+![1](python設定画像/7.PNG)
 
 次にpipを試してみた
 
 pandasインストールして実行できるか確認
 
-![1](python設定画像\8.PNG)
+![1](python設定画像/8.PNG)
 
 
 
@@ -57,7 +57,7 @@ data_b = pd.DataFrame(d)
 
 ```
 
-![1](python設定画像\11.PNG)
+![1](python設定画像/11.PNG)
 
 spyderも入れてみた
 
@@ -73,13 +73,15 @@ spyder
 
 ただエラーが出ている
 
-![1](python設定画像\10.PNG)
+![1](python設定画像/10.PNG)
 
 下記を入れたほうがいいの？
 
 ```
 pip install spyder-kernels==2.0.1
 ```
+
+入れてみたがエラーは消えなかった
 
 requirements.txtをファイルに出力する。
 
@@ -222,7 +224,7 @@ http://archive.ics.uci.edu/ml/datasets/Wine+Quality
 
 [winequality-red.csv]をダウンロード
 
-![1](python設定画像\12.PNG)
+![1](python設定画像/12.PNG)
 
 sklearn_win.py
 
@@ -255,7 +257,7 @@ print(clf.intercept_)
 print(clf.score(X, Y))
 ```
 
-![1](python設定画像\13.PNG)
+![1](python設定画像/13.PNG)
 
 opencv入れてみる
 
@@ -335,4 +337,4 @@ plt.ylabel("Y軸と表示したい")
 
 pythonとScriptsのパスが通っていたらpython実行環境、ライブラリ実行環境がある
 
-![1](python設定画像\9.PNG)
+![1](python設定画像/9.PNG)

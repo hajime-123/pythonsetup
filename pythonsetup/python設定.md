@@ -338,3 +338,27 @@ plt.ylabel("Y軸と表示したい")
 pythonとScriptsのパスが通っていたらpython実行環境、ライブラリ実行環境がある
 
 ![1](python設定画像/9.PNG)
+
+## 3requirements.txtを使ってライブラリをダウンロードする
+
+https://github.com/hajime-123/pythonsetup
+
+ここにセットアップ用の資料をまとめた。
+
+![1](python設定画像/14.PNG)
+
+ここのpython_starty→requirements.txtをクリックしてRawボタンを押す
+
+![1](python設定画像/15.PNG)
+
+下記のようにライブラリ関係が表示される
+
+![1](python設定画像/16.PNG)
+
+requirements.txtにすべてコピーする
+
+```
+ pip install -r requirements.txt
+```
+
+上記コマンドでライブラリが保存される

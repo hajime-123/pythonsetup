@@ -4,7 +4,7 @@
 
 windowsインストーラ64ビットを選択
 
-![1](python設定画像\1.PNG)
+![Test Image 1](python設定画像\1.PNG)
 
 pathはDドライブにする
 
